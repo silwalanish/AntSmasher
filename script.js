@@ -192,7 +192,7 @@ class Ant{
 
     ctx.beginPath();
     ctx.translate(this.pos.x, this.pos.y);
-    ctx.drawImage(ANT_IMAGE, 0, 0, 200, 245, 0, 0, this.size, this.size);
+    ctx.drawImage(ANT_IMAGE, 0, 0);
     ctx.fill();
     ctx.closePath();
     
